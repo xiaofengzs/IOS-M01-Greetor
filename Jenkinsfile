@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Hello world!'
-xcrun xcodebuild -workspace BugfenderExample.xcworkspace \
+xcrun xcodebuild -xcodeproj Greetor.xcodeproj \
 
     -scheme BugfenderExample \
     -sdk iphoneos \
