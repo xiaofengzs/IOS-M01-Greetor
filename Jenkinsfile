@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Hello world!'
-                sh  "xcodebuild -list -project Greetor.xcodeproj"
+                sh  "xcodebuild -scheme Greetor -project Greetor.xcodeproj"
 
             }
         }
