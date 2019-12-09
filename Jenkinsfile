@@ -6,7 +6,7 @@ pipeline {
                 echo 'Hello world!'
 xcrun xcodebuild -xcodeproj Greetor.xcodeproj \
 
-    -scheme BugfenderExample \
+    -scheme Greetor \
     -sdk iphoneos \
     CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO 
             }
